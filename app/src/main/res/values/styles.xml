@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="myAppTheme" parent="@style/AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorHint">@color/darkgrey</item>
+        <item name="android:editTextColor">@color/darkgrey</item>
+        <!-- <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>-->
+        <item name="android:homeAsUpIndicator">@drawable/ic_close_black_24dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppLoginTheme" parent="Theme.AccountKit">
+        <item name="com_accountkit_background_color">@color/ak_background</item>
+        <item name="com_accountkit_text_color">@color/ak_text</item>
+        <item name="com_accountkit_button_background_color">@color/ak_buttonBackground</item>
+        <item name="com_accountkit_button_pressed_background_color">@color/ak_buttonPressedBackground</item>
+        <item name="com_accountkit_button_text_color">@color/ak_buttonText</item>
+        <item name="com_accountkit_input_background_color">@color/ak_inputBackground</item>
+        <item name="com_accountkit_input_text_color">@color/ak_inputText</item>
+        <item name="com_accountkit_status_bar_color">@color/ak_statusBar</item>
+        <item name="com_accountkit_icon_color">@color/ak_icon</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

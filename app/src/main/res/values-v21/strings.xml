@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_algonquin_times">About Algonquin Times</string>
+    <string name="about_the_team">About the team and the program behind this app</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback_here">Give us some feedback here</string>
+</resources>

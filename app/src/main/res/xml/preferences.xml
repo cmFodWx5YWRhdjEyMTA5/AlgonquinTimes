@@ -1,0 +1,36 @@
+<merge >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="General">
+
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:key="notificationsCheck"
+            android:summary="Notify me about new articles and events that happen at Algonquin"
+            android:title="Notifications" />
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="socialStatus"
+            android:summary="Log into Facebook or Twitter to access certain features like Be a Reporter"
+            android:title="Social Account" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Extras">
+
+        <ListPreference
+            android:summary="Some frequently asked questions"
+            android:title="F.A.Q." />
+        <ListPreference
+            android:summary="Highly doubt you're going to read this but here it is"
+            android:title="Terms and Conditions" />
+        <ListPreference
+            android:summary="About the team an technologies used to make this app"
+            android:title="About this app" />
+    </PreferenceCategory>
+</PreferenceScreen>
+</merge>

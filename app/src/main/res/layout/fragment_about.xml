@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.AboutFragment">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/aboutTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_title"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutNewspaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_newspaper_title"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutNewspaperContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_newspaper_content"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_app_title"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAppContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_app_content"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutApp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_app_content_extended"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutTeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_team_title"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutTeamMember1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member1"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutTeamMember2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member2"
+                    android:textColor="@color/darkgrey" />
+
+
+                <TextView
+                    android:id="@+id/aboutTeamMember4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member4"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutTeamMember7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member7"
+                    android:textColor="@color/darkgrey" />
+
+
+                <TextView
+                    android:id="@+id/aboutTeamMember3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member3"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutTeamMember6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member6"
+                    android:textColor="@color/darkgrey" />
+
+                <TextView
+                    android:id="@+id/aboutTeamMember5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_team_member5"
+                    android:textColor="@color/darkgrey" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

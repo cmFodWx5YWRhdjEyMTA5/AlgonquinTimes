@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Algonquin Times</string>
+    <string name="title_activity_main">Articles</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Algonquin Times</string>
+    <string name="nav_header_subtitle">Article Categories</string>
+    <string name="nav_header_desc">Article Categories</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Page Headings-->
+    <string name="article_page">Articles</string>
+
+    <!--Buttons-->
+    <string name="categories_btn">Categories</string>
+    <string name="search_btn">Search</string>
+    <string name="fab_story">Story Idea</string>
+    <string name="fab_tip">Send A Tip</string>
+    <string name="submit_btn">Submit</string>
+
+    <!--Categories -->
+    <string name="news">News</string>
+    <string name="featured">Featured</string>
+    <string name="entertain">Entertainment</string>
+    <string name="sports">Sports</string>
+    <string name="activities">Activities</string>
+    <string name="lifestyles">Lifestyles</string>
+    <string name="innovations">Innovations</string>
+    <string name="opinions">Opinions</string>
+    <string name="careers">Careers</string>
+    <string name="focus">Focus</string>
+    <string name="all">All Categories</string>
+
+    <!--Bottom Nav Strings-->
+    <string name="nav_articles">Articles</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_social">Social</string>
+    <string name="nav_settings">Settings</string>
+
+
+    <!--Detailed Page Strings-->
+    <string name="detail_title">Title</string>
+    <string name="user_greeting">Hi, User</string>
+    <string name="detail_author">Author</string>
+    <string name="detail_image">Article Image</string>
+    <string name="detail_content">Article Content Is Uploaded Here</string>
+    <string name="send_to">Send To: </string>
+
+
+    <!-- Facebook -->
+    <!-- TO DO:  Enter your facebook and account kit identification -->
+    <string name="facebook_app_id">enter facebook app id</string>
+    <string name="fb_login_protocol_scheme">enter facebook internet protocod</string>
+    <string name="FACEBOOK_APP_ID">enter facebook app id</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">enter account kit client token</string>
+    <!--<string name="ak_login_protocol_scheme">ak1234</string>-->
+    <string name="ak_login_protocol_scheme">enter login protocol scheme</string>
+    <string name="login_email_label">Login with Email</string>
+    <string name="login_phone_label">Login with Phone Number</string>
+    <string name="account">Account</string>
+    <string name="id_label">Account ID</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="email_label">Email</string>
+    <string name="name_label">Name</string>
+    <string name="logout_label">Log Out</string>
+
+
+    <!--Settings Page Strings-->
+    <string name="terms_submissions_title">Submissions</string>
+    <string name="terms_submissions_content">You hereby grant to Algonquin Times a world-wide, royalty-free, perpetual, irrevocable, non-exclusive right and license to use, reproduce, modify, adapt, publish, translate, distribute and sub-license any and all material or information submitted by you to this app or by e-mail to Algonquin Times and/or to incorporate it in other works regardless of form, medium or technology. In addition, you hereby waive any moral rights you have in any and all material or information submitted by you to this app or by e-mail. You agree that any information submitted for inclusion at this app does not infringe the intellectual property or other rights of any third parties and you grant Algonquin Times a right to provide access to the information from the app. </string>
+    <string name="terms_info_title">Confidential Information and Privacy</string>
+    <string name="terms_info_content">Algonquin Times respects each individual\'s autonomy and is committed to protecting the privacy of all users of the site. Algonquin Times\' stance on privacy is very simple: first, Algonquin Times collects personal information about you only when you knowingly and willingly provide it; and second, Algonquin Times will not share, sell or otherwise profit from the distribution of personal data beyond the use it was provided to fulfill. As with all Algonquin Times\'s relationships either on or off the Internet, Algonquin Times holds its customers\' information with care and in strict confidentiality. Notwithstanding, Algonquin Times reserves the right at all times, without prior notification to you, to disclose any information about you or your use of this app as necessary to satisfy any law, regulation, governmental request or court order. Algonquin Times aggregates non-personal information about our customer\'s usage behavior from the app and/or surveys to better understand our customers\' needs and to improve our services overall. This aggregate information is shared with business-partners and advertisers but does not include any personally identifiable information, and does not put the confidentiality of your information at risk. Complete confidentiality and security is not yet possible over the Internet. Internet use and communication is subject to interception, loss and alteration. On whichever site you provide personal information, it is possible for a third party to view that information. It is not surprising, for example, that messages to newsgroups have resulted in unsolicited email from spammers. You acknowledge and agree that Algonquin Times and its affiliates and related companies shall not be responsible for any damages you may suffer as a result of the transmission of confidential or sensitive information over the Internet, and that all such communications will be at your own risk.</string>
+
+    <string name="contact_title">Contact</string>
+    <string name="contact_content">The Algonquin Times is a College News source, by the students for the students.</string>
+    <string name="contact_email_edit">Editorial email: algonquintimes@gmail.com</string>
+    <string name="contact_email_ad">Ad email: sales.algonquintimes@gmail.com</string>
+    <string name="contact_phone_edit">Editorial phone: (613) 727–4723 ext. 5459</string>
+    <string name="contact_phone_ad">Ad phone: (613) 727–4723 ext. 7739</string>
+
+    <string name="about_title">About Algonquin Times</string>
+    <string name="about_newspaper_title">Newspaper</string>
+    <string name="about_newspaper_content">This award-winning student newspaper paper is produced in house, bi-weekly by Journalism and Advertising students.</string>
+    <string name="about_app_title">The App</string>
+    <string name="about_app_content">This app was designed to give students a one stop place to find out about all the news and events happening around campus. The major aim of the app is to encourage all students to be "Student Reporters" by allowing them to submit either tips or story ideas. Algonquin Times journalists will use these submissions to write articles that will be published on their website, app and/or in print. Some submissions will also be used to create Facebook, Twitter or Instagram posts which can all be seen in the social media page of the app.</string>
+    <string name="about_app_content_extended">The Algonquin Times App was designed and developed by Jasper Development, a group of students from Algonquin\'s Mobile Application Design and Development program.</string>
+    <string name="about_team_title">Jasper Development</string>
+    <string name="about_team_member1">Christian Jurt - Project Lead</string>
+    <string name="about_team_member2">Jonathan Dure - Design Lead</string>
+    <string name="about_team_member3">John Desjardins - IOS Developer</string>
+    <string name="about_team_member4">Marjan Tropper - Android Developer</string>
+    <string name="about_team_member5">Rajat Kumar - Interaction Designer</string>
+    <string name="about_team_member6">Janki Padaliya - IOS Designer</string>
+    <string name="about_team_member7">Ramon Tabilin - Android Designer</string>
+    <string name="about_algonquin_times">About Algonquin Times</string>
+    <string name="about_the_team">About the team and the program behind this app</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback_here">Give us some feedback here</string>
+</resources>

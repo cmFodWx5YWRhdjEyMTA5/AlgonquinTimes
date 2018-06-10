@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.algonquintimes.algonquintimes.Settings.SettingsActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relLayoutTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="@dimen/margin_30dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/white_grey_border_bottom">
+
+
+
+            <TextView
+                android:id="@+id/termTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/terms_and_conditions"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/termSubtitle"
+                android:layout_below="@+id/termTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Highly double you're going to read this but there it is"
+                android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayoutContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLayoutTerm"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="@dimen/margin_30dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/white_grey_border_bottom">
+
+
+
+            <TextView
+                android:id="@+id/contactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/contact_us"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/contactSubtitle"
+                android:layout_below="@+id/contactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/feedback_here"
+                android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayoutAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLayoutContact"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/margin_30dp"
+        android:background="@drawable/white_grey_border_bottom">
+
+
+
+            <TextView
+                android:id="@+id/aboutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_algonquin_times"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutSubtitle"
+                android:layout_below="@+id/aboutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_the_team"
+                android:textSize="14sp" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/socialButtonLogout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relLayoutAbout"
+        android:layout_margin="16dp"
+        android:text="Logout"
+        android:textColor="?attr/colorPrimary" />
+
+</RelativeLayout>
